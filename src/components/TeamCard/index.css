@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.team-card-con {
+  list-style-type: none;
+  width: 50px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 600px;
+  border: 1px solid #ffffff;
+  height: 60%;
+  border-radius: 10px;
+  padding-left: 6px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  padding-right: 6px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+}
+.heading {
+  font-size: 10px;
+  color: #ffffff;
+  margin-left: 10px;
+}

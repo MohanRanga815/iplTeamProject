@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.match-con {
+  margin-top: 20px;
+}
+.match-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+.latest-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 120px;
+  }
+}
+.latest-match-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-con {
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+}
+.latest-details {
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .latest-details {
+    width: 45%;
+    align-self: flex-start;
+  }
+}
+.competing-team {
+  font-size: 25px;
+  color: #ffffff;
+}
+.date {
+  font-size: 14px;
+  color: #ffffff;
+}
+.venue-res {
+  font-size: 16px;
+  color: #ffffff;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.line {
+  border: 1px solid #475569;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+.innings-label {
+  font-size: 28px;
+  color: #ffffff;
+}
+.innings-value {
+  font-size: 18px;
+  color: #ffffff;
+}
